@@ -1,22 +1,27 @@
 
 const preLoader = document.querySelector('.preLoader');
-const wellcome = document.querySelector('.wellcome');
 const main = document.querySelector('.main');
 const sig = document.querySelector('.sig');
 
 function sigLoader(){
-  sig.style.opacity = '0';
+  sig.style.opacity = '1';
 
 }
 function timeLoader(){
   preLoader.style.opacity = '0';
   main.style.opacity = '1';    
-  main.style.transition = 'all 1s ease-in-out';
-}
+  main.style.transition = 'all 1s ease';
+
+};
+setTimeout(()=>{
+    sigLoader()
+},'1000')
+
 setTimeout(() => {
   timeLoader();
   
-}, "4000");
+}, "7000");
+
 
 
 
