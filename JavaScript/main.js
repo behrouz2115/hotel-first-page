@@ -26,7 +26,7 @@ setTimeout(()=>{
 setTimeout(() => {
   timeLoader();
   
-}, "7000");
+}, "6000");
 
 
 
