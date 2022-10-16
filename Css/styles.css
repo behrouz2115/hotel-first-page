@@ -9,10 +9,63 @@
     justify-content: center;
     align-items: center;
     transition: all linear 1s;
+    z-index: 50;
 }
 .wellcome{
-    color: rgb(193, 193, 137);  
-}
+    color: rgb(193, 193, 137); 
+    opacity: 0; 
+    Width: 100%;
+    height: 10%;
+    color: orange;
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    animation: fadeOut 6s;
+    -webkit-animation: fadeOut 8s;
+    -moz-animation: fadeOut 8s;
+    -o-animation: fadeOut 8s;
+    -ms-animation: fadeOut 8s;
+    }
+    @keyframes fadeOut {
+    0% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
+    }
+    }
+    @-webkit-keyframes fadeOut {
+    0% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
+    }
+    }
+    @-moz-keyframes fadeOut {
+    0% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
+    }
+    }
+    @-o-keyframes fadeOut {
+    0% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
+    }
+    }
+    @-ms-keyframes fadeOut {
+    0% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
+    }
+    }
 
 .sig{
     background: transparent url('../imag/preloader-sig.png') no-repeat center;
@@ -24,6 +77,8 @@
     justify-content: center;
     align-items: center;
 }
+
+/* main part of fist page */
 .main {
     position: fixed;
     top: 0%;
@@ -32,4 +87,6 @@
     background-size: cover;
     height: 100%;
     width: 100%;
+    z-index: -1;
+    transition: all 1s ease;
 }
