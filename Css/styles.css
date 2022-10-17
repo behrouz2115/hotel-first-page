@@ -1,10 +1,17 @@
 *{
     padding: 0%;
     margin: 0%;
+    
+}
+body {
+    background-color: #3d4d34;
 }
 .preLoader{
+    position: fixed;
+    top: 0%;
     background-image: url("../imag/preloader.jpg") ;
     height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,8 +63,8 @@
 
 .sig{
     background: transparent url('../imag/preloader-sig.png') no-repeat center;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     opacity: 0;
     transition: all 2s ease;
     display: flex;
@@ -67,13 +74,31 @@
 
 /* main part of fist page */
 .main {
-    position: fixed;
-    top: 0%;
     opacity: 0;
     background-image: url('../imag/h1-page-background-img-01.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
     z-index: -1;
     transition: all 1s ease;
+    border: 1px solid #dcc69c;
+    margin: 20px;
+    padding: 20px;
+}
+.corner-shape1{
+    position: absolute;
+    
+}
+.corner-shape2{
+    position: absolute;
+    
+}
+.corner-shape3{
+    position: absolute;
+    
+}
+.corner-shape4{
+    position: absolute;
+    
 }
