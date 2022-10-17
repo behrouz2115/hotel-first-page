@@ -79,7 +79,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
-    width: 100%;
     z-index: -1;
     transition: all 1s ease;
     border: 1px solid #dcc69c;
@@ -88,17 +87,27 @@ body {
 }
 .corner-shape1{
     position: absolute;
+    top: 20px;
+    left: 20px;
     
 }
 .corner-shape2{
     position: absolute;
+    bottom: 20px;
+    left: 20px;
+    transform: rotate(270deg)
     
 }
 .corner-shape3{
     position: absolute;
+    top: 20px;
+    right: 20px;
+    transform: rotate(90deg)
     
 }
 .corner-shape4{
     position: absolute;
-    
+    bottom: 20px;
+    right: 20px;
+    transform: rotate(180deg)    
 }
