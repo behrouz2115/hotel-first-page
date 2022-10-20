@@ -133,8 +133,8 @@ body {
 }
 .main-header-left{
     margin-left: 0;
-    /* width: 100%; */
-    /* height: 100%; */
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -162,4 +162,16 @@ body {
 }
 .main-header-reserve-text{
     color: #dcc69c;
+}
+
+
+
+.main-header-right{
+    margin-right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
 }
