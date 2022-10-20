@@ -131,3 +131,35 @@ body {
     height: auto;
     width: 162px;
 }
+.main-header-left{
+    margin-left: 0;
+    /* width: 100%; */
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+}
+.main-header-left-inner1{
+  margin: 0;
+}
+.main-header-left-inner2{
+ border: 1px solid #dcc69c;
+ font-weight: 600;
+ position: relative;
+ padding: 16px 56px 16px 56px;
+ cursor: pointer;
+ text-decoration: none;
+}
+.main-header-box-reserve{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    border: 1px solid  rgb(219, 199, 133, 0.5);
+    line-height: 1.2rem;
+}
+.main-header-reserve-text{
+    color: #dcc69c;
+}
