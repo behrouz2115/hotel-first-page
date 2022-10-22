@@ -174,11 +174,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  vertical-align: middle;
+  vertical-align: baseline;
+  position: relative;
 }
 .main-header-right-lang-inner1 {
   width: auto;
-  position: relative;
   display: inline-block;
   vertical-align: middle;
   text-align: left;
@@ -200,9 +200,10 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    /* width: 100%; */
+    width: 100%;
+    left: -4px;
     border: 1px solid rgb(219, 199, 133, 0.5);
-    padding: 16px 25px 17px;
+    padding: 16px 25px 16px;
     position: absolute;
    
   }
@@ -223,11 +224,39 @@ body {
   p {
     margin: 10px 0;
   }
+  .fa-regular{
+      font-size: 16px;
+      color: #dcc69c;
+  }
 
-.menu{
-    margin: 20px ;
+  /* .main-text-intro-inner{
+    width: 640px;
+    max-width: 640px;
+    
+  } */
+  .main-text-intro{
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    /* justify-content: center; */
+  }
+.main-text-intro-date p{
+   text-transform: uppercase;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 1.66;
+   letter-spacing: .4em;
+   display: inline-flex;
+   vertical-align: middle;
+   color: #dcc69c;
 }
-.fa-regular{
-    font-size: 16px;
-    color: #dcc69c;
+.main-text-intro-vication{
+  font-family: serif;
+   margin-top: 15px;
+   font-weight: 600;
+   font-size: 30px;
+   line-height:1.2em;
+   color: #dcc69c;
+   
 }
