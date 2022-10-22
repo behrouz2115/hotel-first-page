@@ -240,6 +240,7 @@ body {
     text-align: center;
     vertical-align: top;
     /* justify-content: center; */
+    margin-bottom: 50px;
   }
 .main-text-intro-date p{
    text-transform: uppercase;
@@ -259,4 +260,19 @@ body {
    line-height:1.2em;
    color: #dcc69c;
    
+}
+/* tree  */
+.tree-image{
+  height: 535px;
+  width: 1236px;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+  margin: auto;
+}
+.tree-image img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  align-items: center;
 }
