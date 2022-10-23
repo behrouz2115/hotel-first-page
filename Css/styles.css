@@ -297,7 +297,7 @@ body {
   height: 80%;
   position: absolute;
   left: 30px;
-  top: 150px ;
+  top: 250px ;
   text-align: center;
   
 }
@@ -352,8 +352,8 @@ body {
 .excellence-part-image-span{
   border: 1px solid rgb(219, 199, 133, 0.5);
   position: absolute;
-  top: -40px;
-  right: -40px;
+  top: -20px;
+  right: -20px;
   height: 100%;
   width: 100%;
   opacity: 1;
@@ -364,4 +364,85 @@ body {
   opacity: 200;
   position: absolute;
 }
+/* tryly part */
+.truly-part{
+  margin-top: 50px;
+  height: 835px;
+  width: 1236px;
+ position: relative;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;  
+ margin-left: 40px;
+}
+.truly-part-image{
+  width: 50%;
+  height: 80%;
+  position: absolute;
+  left: 30px ;
+}
+.truly-part-image img{
+  width: 100%;
+  height: 100%;
+  opacity: 200;
+  position: absolute;
+}
+.truly-part-image-span{
+  border: 1px solid rgb(219, 199, 133, 0.5);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+.truly-part-text{
+  width: 40%;
+  height: 80%;
+  position: absolute;
+  right: 30px;
+  top: 250px ;
+  text-align: center;
+  
+}
+
+.truly-part-text h5 {
+  color: #dcc69c;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: .4em;
+}
+.truly-part-text h3 {
+  color: #dcc69c;
+  font-family: "Crimson Pro",serif;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.21em;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.truly-part-text-btm-border{
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  border: 1px solid rgb(219, 199, 133, 0.5);
+  line-height: 1.2rem;
+}
+.truly-part-text-btm {
+  margin-top: 40px;
+  border: 1px solid #dcc69c;
+  /* font-weight: 600; */
+  position: relative;
+  padding: 16px 56px 16px 56px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #dcc69c;
+}
+
+
 
