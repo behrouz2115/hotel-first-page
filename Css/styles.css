@@ -276,3 +276,92 @@ body {
   position: absolute;
   align-items: center;
 }
+/* @media all and  (max-width: 800px) {
+  .tree-image{
+    height: 435px;
+    width: 836px;
+    
+  }
+} */
+.exellence-part{
+  margin-top: 50px;
+  height: 835px;
+  width: 1236px;
+ position: relative;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;  
+}
+.excellence-part-text{
+  width: 40%;
+  height: 80%;
+  position: absolute;
+  left: 30px;
+  top: 150px ;
+  text-align: center;
+  
+}
+.excellence-part-text h3 {
+  font-weight: 600;
+  color: #dcc69c;
+  font-size: 38px;
+  line-height: 1.21rem;
+  margin-bottom: 23px;
+}
+.excellence-part-text h5 {
+  color: #dcc69c;
+  font-size: 12px;
+  line-height: 1.66rem;
+  margin-bottom: 20px;
+  letter-spacing: .4em;
+}
+.excellence-part-text p {
+  color: #dcc69c;
+  font-size: 16px;
+  line-height: 1.66rem;
+  margin-bottom: 40px;
+}
+.excellence-part-text-btm-border{
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  border: 1px solid rgb(219, 199, 133, 0.5);
+  line-height: 1.2rem;
+}
+.excellence-part-text-btm {
+  margin-top: 40px;
+  border: 1px solid #dcc69c;
+  /* font-weight: 600; */
+  position: relative;
+  padding: 16px 56px 16px 56px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #dcc69c;
+}
+
+.excellence-part-image{
+  width: 50%;
+  height: 80%;
+  position: absolute;
+  right: 30px ;
+
+
+}
+.excellence-part-image-span{
+  border: 1px solid rgb(219, 199, 133, 0.5);
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+.excellence-part-image img{
+  width: 100%;
+  height: 100%;
+  opacity: 200;
+  position: absolute;
+}
+
