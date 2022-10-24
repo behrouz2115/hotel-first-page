@@ -153,6 +153,7 @@ body {
   border: 1px solid rgb(219, 199, 133, 0.5);
   line-height: 1.2rem;
 }
+
 .main-header-reserve-text {
   color: #dcc69c;
 }
@@ -380,6 +381,14 @@ body {
   height: 80%;
   position: absolute;
   left: 30px ;
+  animation-name: hotel;
+  animation-duration: 2s;
+}
+@keyframes hotel {
+  0% { top:0px;}
+  50% { top:5pxpx;}
+  100% { top:0px;}
+
 }
 .truly-part-image img{
   width: 100%;
@@ -443,6 +452,11 @@ body {
   text-decoration: none;
   color: #dcc69c;
 }
-
-
+/* slider */
+.slider{
+  position: relative;
+  width: 1396px;
+  height: 867px;
+  margin-top: 50px;
+}
 
