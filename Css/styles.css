@@ -458,5 +458,13 @@ body {
   width: 1396px;
   height: 867px;
   margin-top: 50px;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+
+}
+.mySlides{
+   position: absolute;
+   text-align: center;
 }
 
