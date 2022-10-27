@@ -368,6 +368,7 @@ body {
 /* tryly part */
 .truly-part{
   margin-top: 50px;
+  margin-bottom: 50px;
   height: 835px;
   width: 1236px;
  position: relative;
@@ -452,11 +453,84 @@ body {
   text-decoration: none;
   color: #dcc69c;
 }
+
+
+
 /* slider */
 .slider{
+  width: 1196px;
+  height: 509px;
+  margin-top: 100px;
+  margin-bottom: 50px;
   position: relative;
-  width: 1396px;
-  height: 867px;
-  margin-top: 50px;
+  align-items: center;
+  margin: auto;
+  /* margin-bottom: 30px; */
+  
+}
+.slider-part-image-span{
+  border: 1px solid rgb(219, 199, 133, 0.5);
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+.fade {
+  position: absolute;
+  animation-name: fade;
+  animation-duration: 1.5s;
+   text-align: center;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.fade img{
+  width: 1196px;
+  height: 509px;
+  opacity: 200;
+  align-items: center;
+}
+.slider-dot{
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+}
+.dot {
+  margin: 15px !important;
+  padding: 0%;
+  width: 9px;
+  height: 9px;
+  background-color:  #dcc69c;
+  cursor: pointer;
+  transform: rotate(45deg);
+  transform: all .35s ease;
+  /* position: absolute; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dot-border{
+  padding: 0%;
+  margin: 0;
+  width: 15px;
+  height: 15px;
+  position:absolute;
+  
+  
+}
+.dot-border:hover{
+  border: 1px solid rgb(219, 199, 133, 0.5);
 }
 
