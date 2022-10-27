@@ -455,16 +455,40 @@ body {
 /* slider */
 .slider{
   position: relative;
-  width: 1396px;
-  height: 867px;
+  width: 1196px;
+  height: 509px;
   margin-top: 50px;
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
-
 }
-.mySlides{
-   position: absolute;
+.slider-part-image-span{
+  border: 1px solid rgb(219, 199, 133, 0.5);
+  position: absolute;
+  /* top: -20px; */
+  /* right: -20px; */
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  /* position: absolute; */
    text-align: center;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.fade img{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 200;
+  align-items: center;
 }
 
