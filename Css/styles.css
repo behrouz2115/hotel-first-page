@@ -533,4 +533,38 @@ body {
 .dot-border:hover{
   border: 1px solid rgb(219, 199, 133, 0.5);
 }
-
+.services{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 835px;
+  width: 1236px;
+ position: relative;
+ display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  margin-left: auto;
+  /* margin-right: auto; */
+}
+.service{
+  /* position: absolute; */
+  width: 399px;
+  height: 220px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.service img{
+  height: 99px;
+  width: 109px;
+}
+.service h5{
+  font-size: 24px;
+  color: #dcc69c ;
+  font-weight: 600;
+  line-height: 1.25em;
+  margin-top: 30px;
+}
+.service p{
+  color: #dcc69c ;
+  margin: 25px 0 0 ;
+}
