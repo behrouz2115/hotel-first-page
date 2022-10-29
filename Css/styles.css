@@ -542,14 +542,14 @@ body {
  display: grid;
   grid-template-columns: auto auto;
   align-items: center;
-  margin-left: auto;
-  /* margin-right: auto; */
+  margin: auto;
+
 }
 .service{
-  /* position: absolute; */
   width: 399px;
   height: 220px;
-  margin: 0;
+  margin: auto;
+
   padding: 0;
   text-align: center;
 }
@@ -567,4 +567,43 @@ body {
 .service p{
   color: #dcc69c ;
   margin: 25px 0 0 ;
+}
+
+/* room part */
+.room{
+  height: 182;
+  width: 1396;
+  position: relative;
+  text-align: center;
+}
+.room-wrpper{
+  height: 100%;
+  width: 1100;
+  /* position: absolute; */
+}
+.room-wrpper h2 {
+  color: #dcc69c ;
+  font-size: 46px;
+  font-weight: 600;
+}
+.room-title {
+  color: #dcc69c ;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.66;
+  letter-spacing: .44em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.room-text{
+  height: 74px;
+  width: 660px;
+  text-align: center;
+  margin: auto;
+}
+.room-text p{
+  color: #dcc69c ;
+  font-size: 20px;
+  font-weight: 200;
 }
