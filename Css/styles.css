@@ -575,6 +575,7 @@ body {
   width: 1396;
   position: relative;
   text-align: center;
+  margin-bottom: 60px;
 }
 .room-wrpper{
   height: 100%;
@@ -606,4 +607,56 @@ body {
   color: #dcc69c ;
   font-size: 20px;
   font-weight: 200;
+}
+.connect {
+  text-align: center;
+  width: 1247px;
+  height: 675px;
+  position: relative;
+  margin-top: 60px;
+  margin: auto;
+}
+.connect-text p{
+  color:  #dcc69c ;
+  margin: 10px 0;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  line-height: 19px;
+  letter-spacing: 4px ;
+}
+.grid-connect{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.grid-connect a{
+  margin: 0;
+  padding: 0;
+  display: grid;
+  align-items: center;
+}
+.connect-img{
+  height: 288px;
+  width: 288px;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  grid-column: 1;
+  grid-row: 1;
+}
+.connect-ins-hide{
+  color: white;
+  display: none;
+  font-weight: 600;
+  font-size: 30px;
+  grid-column: 1;
+  grid-row: 1;
+}
+.connect-img:hover + .connect-ins-hide{
+  display: block;
+  filter: grayscale(80%);
+  transition: all 2s ease;
 }
