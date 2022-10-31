@@ -568,7 +568,25 @@ body {
   color: #dcc69c ;
   margin: 25px 0 0 ;
 }
+/* vidio */
+.video{
+  height: 800px;
+  position: relative;
+  margin-bottom: 60px;
+  margin: -20px;
+  margin-bottom: 80px;
+}
 
+
+
+.video img {
+   height: 800px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+ 
+}
 /* room part */
 .room{
   height: 182;
