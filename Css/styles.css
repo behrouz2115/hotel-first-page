@@ -457,16 +457,47 @@ body {
 
 
 /* slider */
-.slider{
+.swiper {
   width: 1196px;
   height: 509px;
   margin-top: 100px;
   margin-bottom: 50px;
   position: relative;
   align-items: center;
-  margin: auto;
-  /* margin-bottom: 30px; */
-  
+  margin: auto; 
+}
+.slider-part-image-span{
+  border: 1px solid rgb(219, 199, 133, 0.5);
+  position: absolute;
+  left: 15px;
+  bottom: 50px;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+
+.swiper-slide {
+
+  animation-name: fade;
+  animation-duration: 1.5s;
+   text-align: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 200;
+}
+/* .slider{
+  width: 1196px;
+  height: 509px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  position: relative;
+  align-items: center;
+  margin: auto; */
+/*   
 }
 .slider-part-image-span{
   border: 1px solid rgb(219, 199, 133, 0.5);
@@ -482,22 +513,22 @@ body {
   animation-name: fade;
   animation-duration: 1.5s;
    text-align: center;
+
+
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
 .fade img{
   width: 1196px;
   height: 509px;
   opacity: 200;
   align-items: center;
+} */
+.swiper-pagination{
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .slider-dot{
   align-items: center;
@@ -533,6 +564,9 @@ body {
 .dot-border:hover{
   border: 1px solid rgb(219, 199, 133, 0.5);
 }
+
+
+
 .services{
   margin-top: 50px;
   margin-bottom: 50px;
