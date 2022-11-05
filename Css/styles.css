@@ -4,6 +4,8 @@
 }
 body {
   background-color: #3d4d34;
+  display: inline-block;
+
 
 }
 
@@ -75,7 +77,7 @@ body {
   border: 1px solid #dcc69c;
   margin: 20px;
   padding: 20px;
-  display: inline-block;
+  /* display: inline-block; */
 }
 @media(max-width:1300px){
   .main{
@@ -278,6 +280,28 @@ body {
    color: #dcc69c;
    
 }
+/* date */
+.date{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.date-title{
+  margin: 15px;
+  color: #dcc69c;
+  font-size: 16px;
+
+}
+.check-in-input{
+  border: none;
+  outline: none;
+  background: none;
+  color: #dcc69c;
+  font-size: 16px;
+}
+
 /* tree  */
 .tree-image{
   height: 535px;
@@ -630,7 +654,7 @@ body {
 
 
 
-.video img {
+.video video {
    height: 800px;
     display: block;
     padding: 0;
