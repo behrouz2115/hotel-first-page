@@ -4,7 +4,9 @@
 }
 body {
   background-color: #3d4d34;
+
 }
+
 .preLoader {
   position: fixed;
   top: 0%;
@@ -64,14 +66,28 @@ body {
   background-image: url("../imag/h1-page-background-img-01.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+
   position: relative;
   height: 100%;
   z-index: -1;
+  
   transition: all 1s ease;
   border: 1px solid #dcc69c;
   margin: 20px;
   padding: 20px;
+  display: inline-block;
 }
+@media(max-width:1300px){
+  .main{
+    /* width: 1040px ; */
+  }
+}
+.main-border{
+  position: absolute;
+  top: 100%;
+  
+}
+
 .corner-shape1 {
   position: absolute;
   top: -1px;
@@ -271,6 +287,7 @@ body {
   margin-top: 50px;
   margin: auto;
 }
+
 .tree-image img{
   width: 100%;
   height: 100%;
